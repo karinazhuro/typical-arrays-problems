@@ -16,7 +16,6 @@ exports.max = function max(array) {
 
 exports.avg = function avg(array) {
     let sum = 0;
-
     if (typeof array !== 'object' || array.length === 0) {
         return 0;
     } else {
